@@ -98,6 +98,10 @@ Use the removeLastFlavor function below to do the following:
 */
 
 function removeLastFlavor(targetArray){
+    let newArray = [...targetArray];
+    newArray.pop();
+    return newArray;
+
 }
 
 
